@@ -1,3 +1,9 @@
+<script>
+export default {
+  name: 'App',
+}
+</script>
+
 <template>
   <div id="app">
     <header>
@@ -15,7 +21,11 @@
     </header>
 
     <main>
-      <router-view />
+      <router-view v-slot="{Component}" v-cloak>
+          <transition mode="out-in" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeOutLeft">
+            <component :is="Component" />
+          </transition>
+      </router-view >
     </main>
 
     <footer>
@@ -24,11 +34,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App',
-}
-</script>
 
 <style scoped>
 .navbar {
