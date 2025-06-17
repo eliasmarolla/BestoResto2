@@ -1,7 +1,7 @@
 export const menuData = [
   {
     plato: 'Minutas',
-    img: '../assets/minutas.jpg',
+    img: 'src/assets/minutas.jpg',
     opciones: [
       {
         nombre: 'Milanesa de pollo',
@@ -32,7 +32,7 @@ export const menuData = [
   },
   {
     plato: 'Hamburguesas',
-    img: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop',
+    img: 'src/assets/hamburguesas.jpg',
     opciones: [
       {
         nombre: 'Hamburguesa simple',
@@ -54,7 +54,7 @@ export const menuData = [
   },
   {
     plato: 'Pastas',
-    img: 'https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=400&h=300&fit=crop',
+    img: 'src/assets/pastas.jpg',
     opciones: [
       {
         nombre: 'Fetucini',
@@ -75,7 +75,7 @@ export const menuData = [
   },
   {
     plato: 'Pizzas',
-    img: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop',
+    img: 'src/assets/pizzas.jpg',
     opciones: [
       {
         nombre: 'Pizza muzzarella',
@@ -96,7 +96,7 @@ export const menuData = [
   },
   {
     plato: 'Postres',
-    img: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=300&fit=crop',
+    img: 'src/assets/postres.jpg',
     opciones: [
       {
         nombre: 'Flan con dulce de leche',
