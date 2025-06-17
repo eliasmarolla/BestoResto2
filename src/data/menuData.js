@@ -1,7 +1,7 @@
 export const menuData = [
   {
     plato: 'Minutas',
-    img: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop',
+    img: '../assets/minutas.jpg',
     opciones: [
       {
         nombre: 'Milanesa de pollo',
